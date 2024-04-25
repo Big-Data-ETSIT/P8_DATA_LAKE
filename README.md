@@ -201,7 +201,7 @@ sbt "runMain etsit.ging.etl.etl_bronze.EtlBronze"
 
 Si todo funciona correctamente, se debería visualizar una gran cantidad  de logs de arranque de los servicios de spark y después, una traza de logs recurrente de los mini batches producidos por el flujo de escritura de spark en consola. 
 
-En este punto cuando se visualicen los datos realizar una captura (Captura 1) y almacenarla para poder realizar el informe como parate de la entrega.
+En este punto cuando se visualicen los datos (por lo menos 15 batches) realizar una captura (Captura 1) y almacenarla para poder realizar el informe como parate de la entrega.
 
 Adicionalmente,  se debe verificar que se ha creado una nueva carpeta llamada `data` dentro de la  carpeta raíz. Comprobar lo que hay dentro, varificar que hay una gran cantidad de archivos parquet además también de los logs de transacciones. (Captura 2)
 
