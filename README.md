@@ -56,6 +56,11 @@ Verificar la versión de java 1.8 y sbt instalada.
  which sbt
 ```
 
+En caso de que no esté instalado sbt, ejecutar:
+```bash
+ sdk install sbt
+```
+
 Para verificar la versión de java usar sdkman. 
 
 ```bash
