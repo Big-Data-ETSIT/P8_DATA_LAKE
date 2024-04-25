@@ -77,7 +77,7 @@ Si ese no es el caso, realizar lo sigiuente:
 
 ```bash
 sdk install java 8.0.412-amzn
-sdk default java 8.0.392-amzn 
+sdk default java 8.0.412-amzn 
 ```
 
 
