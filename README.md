@@ -122,7 +122,7 @@ Donde `iss` es el nombre del tópico que vamos a crear y `localhost:9092` es el 
 Verifique que el tópico se ha creado correctamente con la siguiente instrucción:
 
 ```
-bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092
+bin/kafka-topics.sh --describe --topic iss --bootstrap-server localhost:9092
 
 ```
 **Iniciar el consumidor para leer los eventos que han sido enviados al tópico**
