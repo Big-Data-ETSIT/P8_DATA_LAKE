@@ -186,11 +186,11 @@ python3 src/main.py
 
 ### Bloque 1: Captura y alamacenamiento de los eventos de la ISS por medio de KAFKA y Delta Lake.
 
-Para poder almacenar los datos de streaming dentro del Lago de Datos se provee de dos programas desarrollados en scala. Uno para la captura de datos en crudo (raw) que equivale a la zona Bronze de un Data Lakehouse y otra de  los datos con una agregación que euivale a la zona Gold.
+Para poder almacenar los datos de streaming dentro del Lago de Datos se provee de dos programas desarrollados en scala. Uno para la captura de datos en crudo (raw) que equivale a la zona Bronze de un Data Lakehouse y otra de los datos con una agregación que equivale a la zona Gold.
 
 La ejecución de cada uno de esos programas se realiza utilizando SBT y Spark como motor de procesamiento.
 
-Inspeccione el código de ambos programas e identifique donde se define el esquema de lectura y el procesamiento de los datos en cada uno de ellos. Así como también donde se realiza la captura desde el tópico de Kafka.
+Inspeccione el código de ambos programas e identifique donde se define el esquema de lectura y el procesamiento de los datos en cada uno de ellos. Así como también donde se realiza la captura desde el tópico de Kafka y la ruta en donde se escriben los ficheros de respuesta.
 
 Para ejecutar cada uno de los programas se debe realizar lo sigiuente:
 
