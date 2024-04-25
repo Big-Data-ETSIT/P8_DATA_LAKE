@@ -164,6 +164,12 @@ cd ./data-source
 
 Crear el entorno virtual de pythonn e instalar las dependencias:
 
+Si no está instalado el entorno virtual, ejecutar primero este comando:
+```
+sudo apt install python3.10-venv
+```
+y luego 
+
 ```
 python3 -m venv env
 source env/bin/activate
