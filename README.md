@@ -190,6 +190,8 @@ Para poder almacenar los datos de streaming dentro del Lago de Datos se provee d
 
 La ejecución de cada uno de esos programas se realiza utilizando SBT y Spark como motor de procesamiento.
 
+Inspeccione el código de ambos programas e identifique donde se define el esquema de lectura y el procesamiento de los datos en cada uno de ellos. Así como también donde se realiza la captura desde el tópico de Kafka.
+
 Para ejecutar cada uno de los programas se debe realizar lo sigiuente:
 
 ### Ejecutar el programa para almacenar en la zona Bronze 
